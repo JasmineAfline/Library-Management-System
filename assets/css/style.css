@@ -117,3 +117,33 @@ form button {
   width: 100%;
   margin-top: 10px;
 }
+
+
+.site-footer {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.site-footer a {
+  color: #ccc;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.site-footer a:hover {
+  color: #fff;
+}
+
+.footer-social {
+  margin-top: 10px;
+}
+
+.footer-social a img {
+  width: 24px;
+  height: 24px;
+  margin: 0 5px;
+  vertical-align: middle;
+}
