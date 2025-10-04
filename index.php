@@ -1,46 +1,47 @@
-<section id="categories">
-  <h2 style="text-align:center; margin-bottom:20px;">Browse by Category</h2>
-  <div class="category-cards" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:20px; padding:0 20px;">
+<section id="categories" class="categories">
+  <h2>Browse by Category</h2>
+  <div class="category-grid">
     
-    <div class="card" style="text-align:center; border:1px solid #ddd; border-radius:10px; padding:10px;">
-      <img src="assets/images/trending-books.jpg" alt="Trending Books" style="width:100%; height:150px; object-fit:cover; border-radius:5px;">
+    <div class="category-card">
+      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" alt="Trending Books">
       <h3>Trending Books</h3>
     </div>
-    
-    <div class="card" style="text-align:center; border:1px solid #ddd; border-radius:10px; padding:10px;">
-      <img src="assets/images/classic-books.jpg" alt="Classic Books" style="width:100%; height:150px; object-fit:cover; border-radius:5px;">
+
+    <div class="category-card">
+      <img src="https://images.unsplash.com/photo-1529651737248-dad5e2899f4c" alt="Classic Books">
       <h3>Classic Books</h3>
     </div>
-    
-    <div class="card" style="text-align:center; border:1px solid #ddd; border-radius:10px; padding:10px;">
-      <img src="assets/images/romance-books.jpg" alt="Romance Books" style="width:100%; height:150px; object-fit:cover; border-radius:5px;">
-      <h3>Romance</h3>
-    </div>
-    
-    <div class="card" style="text-align:center; border:1px solid #ddd; border-radius:10px; padding:10px;">
-      <img src="assets/images/kids-books.jpg" alt="Kids Books" style="width:100%; height:150px; object-fit:cover; border-radius:5px;">
+
+    <a href="categories/romance.php" class="category-card">
+    <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" alt="Romance">
+    <h3>Romance</h3>
+    </a>
+
+
+    <div class="category-card">
+      <img src="https://images.unsplash.com/photo-1526312426976-f4d754fa9bd6" alt="Kids Books">
       <h3>Kids</h3>
     </div>
-    
-    <div class="card" style="text-align:center; border:1px solid #ddd; border-radius:10px; padding:10px;">
-      <img src="assets/images/thriller-books.jpg" alt="Thrillers" style="width:100%; height:150px; object-fit:cover; border-radius:5px;">
+
+    <div class="category-card">
+      <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765" alt="Thrillers">
       <h3>Thrillers</h3>
     </div>
-    
-    <div class="card" style="text-align:center; border:1px solid #ddd; border-radius:10px; padding:10px;">
-      <img src="assets/images/textbooks.jpg" alt="Textbooks" style="width:100%; height:150px; object-fit:cover; border-radius:5px;">
+
+    <div class="category-card">
+      <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353" alt="Textbooks">
       <h3>Textbooks</h3>
     </div>
-    
-    <div class="card" style="text-align:center; border:1px solid #ddd; border-radius:10px; padding:10px;">
-      <img src="assets/images/authors-alliance.jpg" alt="Authors Alliance & MIT Press" style="width:100%; height:150px; object-fit:cover; border-radius:5px;">
+
+    <div class="category-card">
+      <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794" alt="Authors Alliance & MIT Press">
       <h3>Authors Alliance & MIT Press</h3>
     </div>
-    
-    <div class="card" style="text-align:center; border:1px solid #ddd; border-radius:10px; padding:10px;">
-      <img src="assets/images/browse-by-subject.jpg" alt="Browse by Subject" style="width:100%; height:150px; object-fit:cover; border-radius:5px;">
+
+    <div class="category-card">
+      <img src="https://images.unsplash.com/photo-1522204507448-60f0b9d50b0e" alt="Browse by Subject">
       <h3>Browse by Subject</h3>
     </div>
-    
+
   </div>
 </section>

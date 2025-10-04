@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'student') {
+if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'librarian') {
   header("Location: ../auth/login.php");
   exit();
 }
@@ -9,11 +9,11 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'student') {
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Borrowed Books</title>
+  <title>Manage Books</title>
 </head>
 <body>
-  <h1>My Borrowed Books</h1>
-  <p>Here the student can view books they have borrowed.</p>
+  <h1>Manage Books (Librarian)</h1>
+  <p>Librarian can add, edit, or remove books.</p>
   <a href="../auth/logout.php">Logout</a>
 </body>
 </html>

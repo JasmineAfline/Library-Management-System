@@ -1,28 +1,40 @@
 <?php include __DIR__ . '/../includes/header.php'; ?>
 
-<h1>Admin Dashboard</h1>
+<div class="dashboard">
+  <h2>Admin Dashboard</h2>
+  <p class="subtitle">Manage and monitor all library activities</p>
 
-<?php
-// Card 1
-$card_title = "Manage Users";
-$card_text = "Add, edit, or remove library users.";
-$card_button_text = "Go to Users";
-$card_button_link = "users.php";
-include __DIR__ . '/../includes/card.php';
+  <div class="dashboard-grid">
 
-// Card 2
-$card_title = "Manage Books";
-$card_text = "Add, edit, or remove books in the library.";
-$card_button_text = "Go to Books";
-$card_button_link = "books.php";
-include __DIR__ . '/../includes/card.php';
+    <div class="card gradient-1">
+      <div class="card-icon">📚</div>
+      <h3>Manage Books</h3>
+      <p>Add, edit, or remove books from the system.</p>
+      <a href="#" class="btn">Open</a>
+    </div>
 
-// Card 3
-$card_title = "Reports";
-$card_text = "View reports of borrowed books and users.";
-$card_button_text = "View Reports";
-$card_button_link = "reports.php";
-include __DIR__ . '/../includes/card.php';
-?>
+    <div class="card gradient-2">
+      <div class="card-icon">👩‍🏫</div>
+      <h3>Manage Employees</h3>
+      <p>View, add, or update librarian and staff details.</p>
+      <a href="#" class="btn">Open</a>
+    </div>
+
+    <div class="card gradient-3">
+      <div class="card-icon">🎓</div>
+      <h3>Manage Students</h3>
+      <p>View and manage student borrowing records.</p>
+      <a href="#" class="btn">Open</a>
+    </div>
+
+    <div class="card gradient-4">
+      <div class="card-icon">📊</div>
+      <h3>Reports</h3>
+      <p>View daily or monthly system activity reports.</p>
+      <a href="#" class="btn">View Reports</a>
+    </div>
+
+  </div>
+</div>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>
